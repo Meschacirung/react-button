@@ -1,4 +1,5 @@
 import Accordion from "./components/Accordion";
+import {Menu} from "components/Menu";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           <p className="mt-4 text-gray-700 dark:text-gray-300 text-lg">Start your React project with Tailus Themer and Radix-UI installed</p>
         </div>
         <div className="sm:border flex items-center justify-center aspect-video max-w-4xl mx-auto sm:rounded-[--card-border-radius] sm:border-[--ui-light-border-color] sm:dark:border-[--ui-dark-border-color] sm:dark:bg-gray-900/50">
-          <Accordion />
+            <Menu />
         </div>
       </div>
     </main>
